@@ -74,7 +74,7 @@ export default function Layout({ children, home }) {
 						</div>
 					</div>
 				</div>
-				<main class="col-span-9">
+				<main className="col-span-9">
 					<div className={styles.main}>{children}</div>
 				</main>
 			</div>
