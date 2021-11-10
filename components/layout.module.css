@@ -1,7 +1,23 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.logo {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.sidebar {
+  padding: 20px;
+  height: 1000px;
+  border-right: 1px solid #ddd;
+}
+
+.menu a:active{
+  color: red;
+}
+
+.main {
+  background-color: #fff;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 100px 50px;
 }
 
 .backToHome {
